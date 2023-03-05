@@ -98,7 +98,7 @@ function Login() {
                   <option value="" disabled hidden>
                     Select Network
                   </option>
-                  <option value={1666700000}>Harmony Testnet Shard 0</option>
+                  <option value={137}>Polygon Mainnet</option>
                   <option value={80001}>Matic Mumbai</option>
                 </select>
               </div>

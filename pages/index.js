@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="p-10">
-        Dummy Voting dApp Page <br />
+       BOTS OF COG Voting dApp<br />
         {routes.map((route, i) => (
           <Link key={i} href={route.path}><a className="block text-primary">{route.name}</a></Link>
         ))}
