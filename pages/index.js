@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Voting DAPP</title>
-        <meta name="description" content="Voting DAPP on Polygon" />
+        <title>BOTS OF COG VOTE</title>
+        <meta name="description" content="Use your COGz Coins to Vote on The COGverse!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="p-10">
