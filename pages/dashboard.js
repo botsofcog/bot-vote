@@ -108,14 +108,14 @@ function Dashboard() {
                   </span>
                   <span>{Lightning}</span>
                 </div>
-                <Button
-                  onClick={() => router.push(routeNames["create-poll"])}
-                  color="primary"
-                  size="sm"
-                  className="mr-4 mb-4"
-                >
-                  New Poll
-                </Button>
+//                <Button
+//                  onClick={() => router.push(routeNames["create-poll"])}
+ //                 color="primary"
+ //                 size="sm"
+//                  className="mr-4 mb-4"
+//                >
+//                  New Poll
+//                </Button>
                 <Button color="pink" size="sm">
                   Find a Poll
                 </Button>
