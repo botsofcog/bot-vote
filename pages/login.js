@@ -57,20 +57,20 @@ function Login() {
   return (
     <>
       <Head>
-        <title>Voting DAPP | Login</title>
+        <title>BOT-Vote | Login</title>
       </Head>
       <div className="grid xl:grid-cols-2 gap-40 pt-24 px-32">
         <div className="pb-10 xl:px-10 mx-auto  pt-56">
-          <h1 className="text-4xl text-primary">Voting DAPP</h1>A platform that
-          gives you access to <br /> a secure polling system. Developed <br />{" "}
-          using blockchain technology.
+          <h1 className="text-4xl text-primary">BOT VOTE</h1>A dApp that
+          gives you access to <br /> an interactive story polling system. Developed <br />{" "}
+          using Polygon blockchain technology.
         </div>
         <div className="bg-white p-10 py-32 text-center">
           {!pressed ? (
             <div className="card">
               <Image src={logo} width={150} height={150} alt="" />
               <h1 className="text-primary text-4xl">
-                <b>Votechain</b>
+                <b>BOTS OF COG VOTE</b>
               </h1>
               <div className="mt-10">
                 <label>Network: </label>
@@ -104,7 +104,7 @@ function Login() {
               </div>
               <Button className="my-4" onClick={handleClick}>
                 {loading
-                  ? "Connecting Securely..."
+                  ? "Connecting..."
                   : "Connect to Metamask Wallet"}
               </Button>
               {error && (
